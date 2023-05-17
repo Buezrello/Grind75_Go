@@ -44,5 +44,8 @@ func main() {
 	//fmt.Println(solutions.FloodFill(image1, 1, 1, 2))
 	//fmt.Println(solutions.FloodFill(image2, 0, 0, 0))
 
-	fmt.Println(solutions.CanConstruct("aac", "acab"))
+	//fmt.Println(solutions.CanConstruct("aac", "acab"))
+
+	fmt.Println(solutions.ClimbStairs(5))
+
 }
