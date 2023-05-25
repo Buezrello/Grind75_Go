@@ -46,6 +46,10 @@ func main() {
 
 	//fmt.Println(solutions.CanConstruct("aac", "acab"))
 
-	fmt.Println(solutions.ClimbStairs(5))
+	//fmt.Println(solutions.ClimbStairs(5))
+
+	fmt.Println(solutions.LongestPalindrome("abccccdd"))
+	fmt.Println(solutions.LongestPalindrome("a"))
+	fmt.Println(solutions.LongestPalindrome("abcdadcb"))
 
 }
