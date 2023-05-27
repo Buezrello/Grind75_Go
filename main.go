@@ -48,8 +48,10 @@ func main() {
 
 	//fmt.Println(solutions.ClimbStairs(5))
 
-	fmt.Println(solutions.LongestPalindrome("abccccdd"))
-	fmt.Println(solutions.LongestPalindrome("a"))
-	fmt.Println(solutions.LongestPalindrome("abcdadcb"))
+	//fmt.Println(solutions.LongestPalindrome("abccccdd"))
+	//fmt.Println(solutions.LongestPalindrome("a"))
+	//fmt.Println(solutions.LongestPalindrome("abcdadcb"))
 
+	fmt.Println(solutions.MajorityElement([]int{3, 2, 3}))
+	fmt.Println(solutions.MajorityElement([]int{2, 2, 1, 1, 2, 2, 1}))
 }
