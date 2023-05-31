@@ -52,6 +52,11 @@ func main() {
 	//fmt.Println(solutions.LongestPalindrome("a"))
 	//fmt.Println(solutions.LongestPalindrome("abcdadcb"))
 
-	fmt.Println(solutions.MajorityElement([]int{3, 2, 3}))
-	fmt.Println(solutions.MajorityElement([]int{2, 2, 1, 1, 2, 2, 1}))
+	//fmt.Println(solutions.MajorityElement([]int{3, 2, 3}))
+	//fmt.Println(solutions.MajorityElement([]int{2, 2, 1, 1, 2, 2, 1}))
+
+	fmt.Println(solutions.AddBinary("11", "1"))
+	fmt.Println(solutions.AddBinary("1010", "1011"))
+	fmt.Println(solutions.AddBinary("0", "0"))
+
 }
