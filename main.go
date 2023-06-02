@@ -55,8 +55,20 @@ func main() {
 	//fmt.Println(solutions.MajorityElement([]int{3, 2, 3}))
 	//fmt.Println(solutions.MajorityElement([]int{2, 2, 1, 1, 2, 2, 1}))
 
-	fmt.Println(solutions.AddBinary("11", "1"))
-	fmt.Println(solutions.AddBinary("1010", "1011"))
-	fmt.Println(solutions.AddBinary("0", "0"))
+	//fmt.Println(solutions.AddBinary("11", "1"))
+	//fmt.Println(solutions.AddBinary("1010", "1011"))
+	//fmt.Println(solutions.AddBinary("0", "0"))
 
+	root := &solutions.TreeNode{Val: 1, Left: nil, Right: nil}
+	root.Left = &solutions.TreeNode{Val: 2, Left: nil, Right: nil}
+	root.Left.Left = &solutions.TreeNode{Val: 4, Left: nil, Right: nil}
+	root.Left.Right = &solutions.TreeNode{Val: 5, Left: nil, Right: nil}
+	root.Right = &solutions.TreeNode{Val: 3, Left: nil, Right: nil}
+
+	fmt.Println(solutions.DiameterOfBinaryTree(root))
+
+	root = &solutions.TreeNode{Val: 1, Left: nil, Right: nil}
+	root.Left = &solutions.TreeNode{Val: 2, Left: nil, Right: nil}
+
+	fmt.Println(solutions.DiameterOfBinaryTree(root))
 }
