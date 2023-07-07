@@ -59,16 +59,20 @@ func main() {
 	//fmt.Println(solutions.AddBinary("1010", "1011"))
 	//fmt.Println(solutions.AddBinary("0", "0"))
 
-	root := &solutions.TreeNode{Val: 1, Left: nil, Right: nil}
-	root.Left = &solutions.TreeNode{Val: 2, Left: nil, Right: nil}
-	root.Left.Left = &solutions.TreeNode{Val: 4, Left: nil, Right: nil}
-	root.Left.Right = &solutions.TreeNode{Val: 5, Left: nil, Right: nil}
-	root.Right = &solutions.TreeNode{Val: 3, Left: nil, Right: nil}
+	//root := &solutions.TreeNode{Val: 1, Left: nil, Right: nil}
+	//root.Left = &solutions.TreeNode{Val: 2, Left: nil, Right: nil}
+	//root.Left.Left = &solutions.TreeNode{Val: 4, Left: nil, Right: nil}
+	//root.Left.Right = &solutions.TreeNode{Val: 5, Left: nil, Right: nil}
+	//root.Right = &solutions.TreeNode{Val: 3, Left: nil, Right: nil}
+	//
+	//fmt.Println(solutions.DiameterOfBinaryTree(root))
+	//
+	//root = &solutions.TreeNode{Val: 1, Left: nil, Right: nil}
+	//root.Left = &solutions.TreeNode{Val: 2, Left: nil, Right: nil}
+	//
+	//fmt.Println(solutions.DiameterOfBinaryTree(root))
 
-	fmt.Println(solutions.DiameterOfBinaryTree(root))
-
-	root = &solutions.TreeNode{Val: 1, Left: nil, Right: nil}
-	root.Left = &solutions.TreeNode{Val: 2, Left: nil, Right: nil}
-
-	fmt.Println(solutions.DiameterOfBinaryTree(root))
+	fmt.Println(solutions.ContainsDuplicate([]int{1, 2, 3, 1}))
+	fmt.Println(solutions.ContainsDuplicate([]int{1, 2, 3, 4}))
+	fmt.Println(solutions.ContainsDuplicate([]int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}))
 }
